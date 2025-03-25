@@ -16,5 +16,10 @@ namespace TestWinFormApp
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            string test = "If you can see this, can can can";
+        }
     }
 }
